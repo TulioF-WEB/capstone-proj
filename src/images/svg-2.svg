@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" aria-labelledby="title">
+<title>Fiber / High-Speed</title>
+<g fill="none" stroke="#00d4ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 64h60" />
+  <circle cx="96" cy="64" r="16" />
+  <path d="M96 48V16M96 112V80" />
+  <path d="M32 48L16 64l16 16" />
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" aria-labelledby="title">
+<title>Wi-Fi Signal</title>
+<g fill="none" stroke="#0467fb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 48a80 80 0 0 1 96 0"/>
+  <path d="M32 64a56 56 0 0 1 64 0"/>
+  <path d="M48 80a32 32 0 0 1 32 0"/>
+  <circle cx="64" cy="96" r="6" fill="#0467fb" stroke="none"/>
+</g>
+</svg>

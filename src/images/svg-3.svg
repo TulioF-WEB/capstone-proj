@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" aria-labelledby="title">
+<title>Network Nodes</title>
+<g fill="none" stroke="#7f8ea3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="24" cy="64" r="10" />
+  <circle cx="64" cy="24" r="10" />
+  <circle cx="104" cy="64" r="10" />
+  <circle cx="64" cy="104" r="10" />
+  <path d="M32 64h64M64 32v64M34 56l22-22M94 56L72 34M34 72l22 22M94 72L72 94" />
+</g>
+</svg>
