@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { FaWifi } from 'react-icons/fa';
+import { FaWifi } from 'react-icons/fa'; // imported directly from react
 import { Link } from 'react-router-dom';
-
+// styles for the page
 export const FooterContainer = styled.div`
   background-color: #1c1f2a;
   padding: 4rem 0 2rem 0;
@@ -103,8 +103,8 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h2`
   margin-bottom: 16px;
 `;
-
-export const FooterLink = styled(Link)`
+// using the link that was imported
+export const FooterLink = styled(Link)` 
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;

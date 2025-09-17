@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'; // styles to be used from react
 import { Container } from '../../globalStyles'
 import { FaWifi } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
@@ -37,7 +37,7 @@ export const NavIcon = styled(FaWifi)`
     margin-right: 0.5rem;
 
 `
-
+// media queries for tablet and phone
 export const HamburgerIcon = styled.div`
     display: none;
 
@@ -112,7 +112,7 @@ export const NavLinks = styled(Link)`
         }
     }
 `
-
+// style for each li
 export const NavItemBtn = styled.li`
   @media screen and (max-width: 960px) {
     display: flex;

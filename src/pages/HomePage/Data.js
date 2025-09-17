@@ -1,7 +1,9 @@
-import wifiSvg from '../../images/svg-1.svg';
-import fiberSvg from '../../images/svg-2.svg';
-import nodesSvg from '../../images/svg-3.svg';
+import reliableInternet from '../../images/reliableinternet.svg';
+import plugInSVG from '../../images/pluginon.svg';
+import SServerup from '../../images/securityserver.svg';
 
+// the constants homeObj are based on each page.
+// primary:true to highlight its default and style it.
 export const homeObjOne = {
   primary: true,
   lightBg: false,
@@ -14,8 +16,8 @@ export const homeObjOne = {
     'Connect instantly with speeds up to 1 Gbps, no data caps, and 99.9% uptime. Choose easy self-install or professional setup.',
   buttonLabel: 'View Plans',
   imgStart: '',
-  img: wifiSvg,
-  alt: 'Wi-Fi Signal',
+  img: reliableInternet,
+  alt: 'Internet',
   start: ''
 };
 
@@ -31,8 +33,8 @@ export const homeObjTwo = {
     'Get online in minutes with our smart app and pre-configured Wi-Fi 6 router. Keep your number with free port-in.',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: fiberSvg,
-  alt: 'Fiber High-Speed',
+  img: plugInSVG,
+  alt: 'Fiber Plug',
   start: ''
 };
 
@@ -48,7 +50,7 @@ export const homeObjFour = {
     'Automatic threat blocking, encrypted DNS, optional parental controls, and 24/7 monitoring by our network operations center.',
   buttonLabel: 'Get Started',
   imgStart: 'start',
-  img: nodesSvg,
-  alt: 'Network Nodes',
+  img: SServerup,
+  alt: 'Security server',
   start: 'true'
 };

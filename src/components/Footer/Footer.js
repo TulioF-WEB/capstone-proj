@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
+import { Button } from '../../globalStyles'; //importing the button style
 import {
   FaFacebook,
   FaInstagram,
@@ -31,9 +31,9 @@ import {
 function Footer() {
 
   const date = new Date();
-  
+  // function to scroll back to top of the page
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-
+// socials links
   const socialm = {
   instagram: 'https://www.instagram.com/tamwoodcareers/',
   facebook: 'https://www.facebook.com/tamwoodcareers/',
@@ -41,6 +41,7 @@ function Footer() {
   twitter: 'https://x.com/',
   linkedin: 'https://ca.linkedin.com/company/tamwood-international-college',
 };
+// need prevent default on form since not functional (no backend/local storage)
   return (
     <FooterContainer>
       <FooterSubscription>
@@ -48,7 +49,7 @@ function Footer() {
           Join our newsletter to stay up to date.
         </FooterSubHeading>
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-        <Form onSubmit={(e)=>e.preventDefault()}>
+        <Form onSubmit={(e)=>e.preventDefault()}> 
           <FormInput name='email' type='email' placeholder='Your Email' />
            <Button fontBig>Subscribe</Button>
         </Form>

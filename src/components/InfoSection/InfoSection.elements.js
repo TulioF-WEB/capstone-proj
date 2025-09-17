@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-
+// component  styles
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;  
   }
 `;
-
+// mobile and tablet sizes
 export const ImgWrapper = styled.div`
   max-width: 555px;
   width: 100%;      
@@ -93,7 +93,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
 `;
-
+// color
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;

@@ -63,7 +63,7 @@ export const PricingCard = styled(Link)`
     }
   }
 `;
-
+// query for resize
 export const PricingCardInfo = styled.div`
   display: flex;
   flex-direction: column;

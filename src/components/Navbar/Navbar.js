@@ -19,7 +19,7 @@ function Navbar() {
 
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-
+// useState hook to change based on state
     const [homeClick, setHomeClick] = useState(false);
     const [servicesClick, setServicesClick] = useState(false);
     const [productsClick, setProductsClick] = useState(false);
@@ -39,11 +39,11 @@ function Navbar() {
         setProductsClick(true);
         setServicesClick(false);
     }
-
+ // the const will handle the click depending on what is called
     const handleClick = () =>  setClick(!click);
-    
+    // handler for opening/closing mobile
     const closeMobileMenu = () => setClick(false);
-    
+    // scroll to top func
     const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
     const handleLogoClick = () => {
           scrollToTop();

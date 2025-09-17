@@ -16,7 +16,7 @@ import {
   PricingCardFeatures,
   PricingCardFeature
 } from './Pricing.elements';
-
+// context is to pass context to all other elements after.
  const Pricing = () => {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>

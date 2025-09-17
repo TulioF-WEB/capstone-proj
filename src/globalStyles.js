@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-
+// import from react library to use global styles
 const GlobalStyles = createGlobalStyle`
 * {
     box-sizing: border-box;
